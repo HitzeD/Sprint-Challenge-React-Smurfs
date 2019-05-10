@@ -5,10 +5,9 @@ class Smurf extends React.Component {
     super(props);
     console.log(this.props.deleteSmurf)
   }
-
+  
   deleteSmurf = e => {
     e.preventDefault();
-    console.log(this.props.id)
     this.props.deleteSmurf(this.props.id)
   }
 
